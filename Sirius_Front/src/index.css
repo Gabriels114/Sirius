@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --font-xxs: 0.6rem;
+  --font-xs: 0.75rem; /* 12px */
+  --font-sm: 0.875rem; /* 14px */
+  --font-md: 1rem; /* 16px (base) */
+  --font-lg: 1.25rem; /* 20px */
+  --font-xl: 1.5rem; /* 24px */
+  --font-xxl: 2rem; /* 32px */
+  
+
+  --background: #E7E7E7;
+  --background-transparent: #23222b8a ;
+
+  --card-background: #fff;
+
+  --text-principal: #515151;
+  --text-subtitles: #777777;
+  --text-subtitles-100: #AEAEAE;
+
+  --text-btn:#3B3B3B;
+  }
+  
+  [data-theme="dark"] {
+        /* Backgrounds */
+        --background: #1E1E1E;
+        --background-transparent: #dedede3d;
+
+        --card-background: #2C2C2C;
+    
+        --text-principal: #E7E4DC;
+        --text-subtitles: #8C8C8C;
+        --text-subtitles: #6C6C6C;
+
+        --text-btn: #C9C9C9;
+
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px auto #f00; */
+}
