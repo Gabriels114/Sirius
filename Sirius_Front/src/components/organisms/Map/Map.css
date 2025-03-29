@@ -1,0 +1,15 @@
+.Map_Container{
+    display: grid;
+    width: 100%;
+    aspect-ratio: 1/1;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background: url('../../../assets//map.png') no-repeat center center;
+    background-size: cover;
+    filter: grayscale(1) contrast(.4) ;
+    margin-top: 20px;
+
+    > *{
+        outline: 1px #000;
+    }
+}

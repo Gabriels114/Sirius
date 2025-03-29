@@ -1,0 +1,25 @@
+.Card_Container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 45% 55%;
+    height: 135px;
+}
+
+.Card_Container_Image{
+    display: flex;
+    flex-direction: column-reverse;
+    background: url('../../../assets/city_1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.Card_Container_Image_Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    & button{
+        padding: 1px ;
+        font-size: var(--font-xxs);
+    }
+}
