@@ -30,6 +30,9 @@
   --text-subtitles: #777777;
   --text-subtitles-100: #AEAEAE;
 
+  --wave-start: #ffffff;
+  --wave-middle: #ececec;
+
   --text-btn:#3B3B3B;
 
   --red-alert:#E40303;
@@ -45,6 +48,9 @@
         --text-principal: #E7E4DC;
         --text-subtitles: #8C8C8C;
         --text-subtitles: #6C6C6C;
+
+        --wave-start: #101010;
+        --wave-middle: #1b1b1b;
 
         --text-btn: #C9C9C9;
 

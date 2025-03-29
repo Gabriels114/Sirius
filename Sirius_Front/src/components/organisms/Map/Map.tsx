@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Map.css"
+import Skeleton from "../../atoms/Skeleton/Skeleton";
 
 interface MapProps {
     posX: number;
@@ -19,6 +20,7 @@ export default function Map({mapData}: MapComponentProps) {
 
 
     return(
+        data.length > 0 ?(
         <section className="Map_Container">
             {data.map(({ posX, posY, bgRoute }, index) => (
                 <div
@@ -33,5 +35,7 @@ export default function Map({mapData}: MapComponentProps) {
                 />
             ))}
         </section>
+        ) :
+        <Skeleton width={"100%"} height={300} $variant="body" $animation={"wave"}/>
     )
 }
