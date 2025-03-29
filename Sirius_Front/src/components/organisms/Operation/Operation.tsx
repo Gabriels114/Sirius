@@ -3,6 +3,7 @@ import img1 from "../../../assets/city_1.jpg"
 import"./Operation.css"
 import SubTitle from "../../moleculs/SubTitle_btn/SubTitleBtn";
 import useFetchData from "../../../hooks/useFetchData";
+import Skeleton from "../../atoms/Skeleton/Skeleton";
 
 export default function Operation() {
     const {data} = useFetchData()
@@ -14,7 +15,7 @@ export default function Operation() {
 
             <div className="Operation_Cards">
                 
-            {data && data?.map((drone,i) => (
+            {data ? data?.map((drone,i) => (
                 
                 <Card 
                     key={drone.drone_id} 
@@ -28,7 +29,32 @@ export default function Operation() {
                     timeArrive={drone.estimated_arrival}
                     timeStart={drone.departure_time}
                     />
-                ))}
+                )) :(
+                    <>
+                        <Skeleton 
+                            width={"300"} 
+                            height={120} 
+                            $variant="body" 
+                            $animation={"wave"}
+                            style={{borderRadius: "20px",minWidth:"280px"}}
+                            />
+                        <Skeleton 
+                            width={"300"} 
+                            height={120} 
+                            $variant="body" 
+                            $animation={"wave"}
+                            style={{borderRadius: "20px",minWidth:"280px"}}
+                            />
+                        <Skeleton 
+                            width={"300"} 
+                            height={120} 
+                            $variant="body" 
+                            $animation={"wave"}
+                            style={{borderRadius: "20px",minWidth:"280px"}}
+                            />
+                    </>
+                    
+                )}
             </div>
         </section>
     )

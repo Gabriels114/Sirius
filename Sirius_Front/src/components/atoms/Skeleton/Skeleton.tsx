@@ -1,3 +1,4 @@
+import { CSSProperties } from "react";
 import styled, {css, keyframes} from "styled-components";
 
 interface SkeletonProps {
@@ -8,6 +9,7 @@ interface SkeletonProps {
     color?: string
     className?: string
     id?: string
+    style?: CSSProperties
 }
 
 const wave$animation = keyframes`
