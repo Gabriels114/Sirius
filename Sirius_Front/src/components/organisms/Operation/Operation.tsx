@@ -10,7 +10,31 @@ export default function Operation() {
 
     return(
         <section className="Operation_Container">
-            <SubTitle title="En operacion"/>
+            <SubTitle title="En operacion"  onClick={async () => {
+        try {
+            const response = await fetch("https://kvq8ctwm-8000.usw3.devtunnels.ms/deploy_drone", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    latitude: 0,
+                    longitude: 0
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error("Error al enviar la solicitud");
+            }
+
+            const data = await response.json();
+            console.log("Respuesta del servidor:", data);
+            alert("Dron forzado a regresar correctamente.");
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Error al forzar el regreso del dron.");
+        }
+    }}/>
 
 
             <div className="Operation_Cards">

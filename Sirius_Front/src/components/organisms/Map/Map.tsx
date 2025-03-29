@@ -18,6 +18,8 @@ export default function Map({mapData}: MapComponentProps) {
         setData(mapData)
     },[mapData])
 
+    
+
 
     return(
         data.length > 0 ?(

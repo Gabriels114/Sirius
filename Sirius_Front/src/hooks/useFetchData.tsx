@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// const ApiDataDrone = "https://kvq8ctwm-8000.usw3.devtunnels.ms/active_drones"
+const ApiDataDrone = "https://kvq8ctwm-8000.usw3.devtunnels.ms/active_drones"
 
 interface DroneData {
     drone_id: string;

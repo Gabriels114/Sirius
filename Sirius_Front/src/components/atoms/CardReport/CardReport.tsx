@@ -1,6 +1,7 @@
 import DownloadIcon from "../Icons/DownloadIcon"
 import Eye from "../Icons/Eye"
 import "./CardReport.css"
+// import fileContent from "../../../assets/reports/gemini_report.txt"
 
 export default function CardReport ({
     date,
@@ -24,9 +25,25 @@ export default function CardReport ({
 
             <div className="icons_container">
 
-            <Eye color="var(--text-principal)" sx={20}/>
+            <button>
+            <Eye color="var(--text-principal)" sx={20} />
+            </button>
             <DownloadIcon color="var(--text-principal)" sx={20}/>
             </div>
+
+            {/* {fileContent && (
+                <pre style={{
+                    marginTop: "20px",
+                    padding: "10px",
+                    border: "1px solid #ccc",
+                    borderRadius: "5px",
+                    background: "#f9f9f9",
+                    whiteSpace: "pre-wrap",
+                    textAlign: "left"
+                }}>
+                    {fileContent}
+                </pre>
+            )} */}
         </div>
     )
 }

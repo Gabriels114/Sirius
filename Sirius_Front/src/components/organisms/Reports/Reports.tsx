@@ -1,5 +1,6 @@
 import CardReport from "../../atoms/CardReport/CardReport";
 import SubTitle from "../../moleculs/SubTitle_btn/SubTitleBtn";
+// import textFile from "../../../assets/reports/gemini_report.txt"
 import "./Report.css"
 
 export default function Reports(){

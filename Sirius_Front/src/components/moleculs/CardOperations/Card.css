@@ -2,7 +2,7 @@
     display: grid;
     min-width: 320px;
     grid-template-columns: 50% 50%;
-    height: 155px;
+    min-height: 155px;
     border-radius: 10px;
     overflow: hidden;
 

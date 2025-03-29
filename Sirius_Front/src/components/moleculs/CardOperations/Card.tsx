@@ -17,7 +17,7 @@ export default function Card ({
     route: string,
     percentage: number,
     color: string,
-    img: string,
+    img:string,
     timeArrive: string,
     timeStart: string,
     batteryArrive: number,
@@ -44,7 +44,6 @@ export default function Card ({
                 <StateDron  battery={batteryArrive} state="Salida" time={timeArr[1].split(".")[0]}/>
 
             </div>
-
             <div className="Card_Container_Image" 
                 style={{
                     background: `linear-gradient(to bottom, transparent 70%, var(--background) 100%), url(${img}) no-repeat center center`,
