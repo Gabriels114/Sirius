@@ -31,6 +31,8 @@
   --text-subtitles-100: #AEAEAE;
 
   --text-btn:#3B3B3B;
+
+  --red-alert:#E40303;
   }
   
   [data-theme="dark"] {
@@ -46,12 +48,15 @@
 
         --text-btn: #C9C9C9;
 
+        --red-alert: #CD0000;
+
   }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   /* outline: 1px auto #f00; */
 }
 
@@ -59,4 +64,10 @@ body{
   width: 100%;
   min-width: 320px;
   padding: 20px;
+}
+
+h2{
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: var(--text-principal);
 }
