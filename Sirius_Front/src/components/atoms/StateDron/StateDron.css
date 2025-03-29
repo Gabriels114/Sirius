@@ -1,0 +1,8 @@
+.data_dron{
+    display: flex;
+    gap: 3px;
+    font-size: var(--font-xxs);
+    color: var(--text-subtitles);
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+}

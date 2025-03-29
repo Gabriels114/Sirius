@@ -20,7 +20,7 @@ export default function Operation() {
                 />
             </span>
 
-            <Card/>
+            <Card percentage={73} route="Ruta A" title="Agras T10 (2)"/>
 
         </section>
     )
