@@ -20,6 +20,11 @@
     }
 }
 
+.card_container{
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (min-width: 700px) {
     .rutes_container{
         grid-area: rutes;
