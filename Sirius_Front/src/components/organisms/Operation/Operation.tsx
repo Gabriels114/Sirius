@@ -1,30 +1,31 @@
-import PlusIcon from "../../atoms/Icons/PlusIcon";
 import Card from "../../moleculs/CardOperations/Card";
-import img from "../../../assets/city_1.jpg"
-import img2 from "../../../assets/city_2.jpg"
+import img1 from "../../../assets/city_1.jpg"
 import"./Operation.css"
+import SubTitle from "../../moleculs/SubTitle_btn/SubTitleBtn";
+import useFetchData from "../../../hooks/useFetchData";
 
 export default function Operation() {
+    const {data} = useFetchData()
+
     return(
         <section className="Operation_Container">
-            <span style={{display:'flex', alignItems:'center', gap:'5px', marginTop: '20px'}}>
-                <h2>En operacion</h2>
-                <button children={PlusIcon({color: "var(--background)", sx:13 })}
-                        style={{
-                            borderRadius: '50%',
-                            backgroundColor: 'var(--text-principal)',
-                            border: 'none',
-                            width: '19px',
-                            height: '19px',
-                            display: "grid",
-                            placeItems: "center",
-                        }}
-                />
-            </span>
+            <SubTitle title="En operacion"/>
 
-            <Card percentage={73} route="Ruta A" title="Agras T10 (2)" color="#2192AC" img={img2}/>
-            <Card percentage={73} route="Ruta A" title="Agras T10 (2)" color="#A8B722" img={img}/>
 
+            {data && data?.map((drone,i) => (
+                <Card 
+                    key={drone.drone_id} 
+                    percentage={drone.battery} 
+                    route={"Ruta " + (i+1)} 
+                    title={drone.drone_id} 
+                    color="#2192AC" 
+                    img={img1}
+                    batteryArrive={15}
+                    batteryStart={drone.battery}
+                    timeArrive={drone.estimated_arrival}
+                    timeStart={drone.departure_time}
+                    />
+            ))}
         </section>
     )
 }

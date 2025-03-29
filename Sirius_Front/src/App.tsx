@@ -2,6 +2,7 @@ import './App.css'
 import Title from './components/atoms/title/Title'
 import Operation from './components/organisms/Operation/Operation'
 import Map from './components/organisms/Map/Map.tsx'
+import Rutes from './components/organisms/Rutes/RutesPage.tsx';
 
 function App() {
   const mapPoints = [
@@ -10,13 +11,14 @@ function App() {
 ];
 
   return (
-    <>
-      <body>
+      <main>
         <Title base='Base 1' title='Edificio Central'/>
         <Map mapData={mapPoints} />
         <Operation />
-      </body>
-    </>
+        <Rutes />
+        
+      </main>
+
   )
 }
 

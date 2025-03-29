@@ -1,0 +1,21 @@
+.Card_rutes{
+    width: 120px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #A8B722 5px, var(--card-background) 5px);
+    color: var( --text-principal);
+    padding: 6px 15px;
+    margin-top: 10px;
+
+    & :nth-child(1){
+        font-size: var(--font-xs);
+    }
+
+    & :nth-child(2){
+        font-size: var(--font-xxs);
+    }
+
+    & div{
+        display: flex;
+        align-items: center;
+    }
+}

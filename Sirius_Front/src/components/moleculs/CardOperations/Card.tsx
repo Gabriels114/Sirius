@@ -6,14 +6,27 @@ export default function Card ({
     route,
     percentage,
     color,
-    img
+    img,
+    timeArrive,
+    timeStart,
+    batteryArrive,
+    batteryStart
 }:{
     title: string,
     route: string,
     percentage: number,
     color: string,
-    img: string
+    img: string,
+    timeArrive: string,
+    timeStart: string,
+    batteryArrive: number,
+    batteryStart: number
 }){
+    const timeArr = timeArrive.split("T")
+    const timeSt = timeStart.split("T")
+
+
+
     return(
         <div className="Card_Container">
             <div className="Card_Text"
@@ -26,9 +39,8 @@ export default function Card ({
                 <p style={{fontWeight:"bold", color:"var(--text-subtitles-100)"}}>{route}</p>
                 <p style={{fontWeight:"100", lineHeight:".75", marginBottom:"10px"}}>{percentage}% del trayecto</p>
 
-                <StateDron  battery={98} state="Salida" time="13:30:00"/>
-                <StateDron  battery={50} state="Salida" time="13:30:00"/>
-                <StateDron  battery={15} state="Salida" time="13:30:00"/>
+                <StateDron  battery={batteryStart} state="Salida" time={timeSt[1].split(".")[0]}/>
+                <StateDron  battery={batteryArrive} state="Salida" time={timeArr[1].split(".")[0]}/>
 
             </div>
 
