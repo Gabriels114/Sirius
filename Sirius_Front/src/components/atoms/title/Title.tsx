@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "./title.css"
 
 export default function Title({ base,title }: { base: string,title: string }) {
     const titleIsFather = title.includes("/")
@@ -6,7 +7,7 @@ export default function Title({ base,title }: { base: string,title: string }) {
     if (titleIsFather) titleSplited = title.split("/")
 
     return(
-        <>
+        <section className="title_container">
             <span
                 style={{
                     display: "flex",
@@ -47,6 +48,6 @@ export default function Title({ base,title }: { base: string,title: string }) {
                 </Link>
             )}
 
-        </>
+        </section>
     )
 }

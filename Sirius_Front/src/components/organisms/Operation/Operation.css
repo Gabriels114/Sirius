@@ -12,3 +12,9 @@
     white-space: nowrap;
     gap: 15px;
 }
+
+@media screen and (min-width: 700px) {
+    .Operation_Container{
+        grid-area: operation;
+    }
+}

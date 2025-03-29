@@ -1,0 +1,12 @@
+@media screen and (min-width: 700px) {
+    main{
+        display: grid;
+        grid-template-areas: 
+            "title title"
+            "map reports"
+            "operation operation"
+            "rutes rutes"
+        ;
+        grid-template-columns: 60% 40%;
+    }
+}

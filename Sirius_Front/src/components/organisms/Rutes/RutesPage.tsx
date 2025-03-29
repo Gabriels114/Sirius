@@ -4,7 +4,7 @@ import "./RutesPage.css"
 
 export default function Rutes(){
     return(
-        <section>
+        <section className="rutes_container">
             <SubTitle title="Rutas Predifinidas"/>
 
             <div className="Card_rutes">

@@ -1,0 +1,5 @@
+@media screen and (min-width: 700px) {
+    .title_container{
+        grid-area: title;
+    }
+}

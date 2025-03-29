@@ -2,6 +2,8 @@ import Title from '../../atoms/title/Title'
 import Operation from '../../organisms/Operation/Operation'
 import Map from '../../organisms/Map/Map.tsx'
 import Rutes from '../../organisms/Rutes/RutesPage.tsx';
+import"./Home.css"
+import Reports from '../Reports/REports.tsx';
 
 const mapPoints = [
     { posX: 50, posY: 100, bgRoute: "/images/map1.png" },
@@ -12,11 +14,11 @@ export default function Home(){
 
     return(
         <main>
-        <Title base='Base 1' title='Edificio Central'/>
-        <Map mapData={mapPoints} />
-        <Operation />
-        <Rutes />
-        
+            <Title base='Base 1' title='Edificio Central'/>
+            <Map mapData={mapPoints} />
+            <Operation />
+            <Rutes />
+            <Reports/>
         </main>
-    )
-}
+        )
+    }

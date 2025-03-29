@@ -1,0 +1,6 @@
+@media screen and (min-width: 700px) {
+    .reports_container{
+        grid-area: reports;
+        margin-left: 10px;
+    }
+}
