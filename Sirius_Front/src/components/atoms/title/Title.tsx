@@ -6,6 +6,7 @@ export default function Title({ base,title }: { base: string,title: string }) {
                     display: "flex",
                     alignItems: "center",
                     gap: '5px',
+                    color: 'var(--text-principal)',
                 }}
             >
                 <div 
@@ -21,7 +22,8 @@ export default function Title({ base,title }: { base: string,title: string }) {
             <h1
                 style={{
                     lineHeight: '.75',
-                    fontSize: 'var(--font-xl)'
+                    fontSize: 'var(--font-xl)',
+                    color: 'var(--text-principal)',
                 }}
             >{title}</h1>
         </>
