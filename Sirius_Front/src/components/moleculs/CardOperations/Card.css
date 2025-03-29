@@ -1,6 +1,6 @@
 .Card_Container{
     display: grid;
-    width: clamp(280px, 300px, 320px);
+    min-width: 320px;
     grid-template-columns: 50% 50%;
     height: 155px;
     border-radius: 10px;
