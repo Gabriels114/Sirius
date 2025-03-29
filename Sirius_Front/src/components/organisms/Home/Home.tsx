@@ -3,7 +3,7 @@ import Operation from '../../organisms/Operation/Operation'
 import Map from '../../organisms/Map/Map.tsx'
 import Rutes from '../../organisms/Rutes/RutesPage.tsx';
 import"./Home.css"
-import Reports from '../Reports/REports.tsx';
+import Reports from '../Reports/Reports.tsx';
 
 const mapPoints = [
     { posX: 50, posY: 100, bgRoute: "/images/map1.png" },
