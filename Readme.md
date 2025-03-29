@@ -2,7 +2,7 @@
 
 SIRIUS es una plataforma integral para la gestión de drones en la atención inmediata de incidentes urbanos. Utilizando análisis de video en tiempo real y reportes generados con el LLM Gemini, la solución permite responder de manera rápida y precisa ante emergencias, facilitando la toma de decisiones de las autoridades y mejorando la seguridad de la ciudad.
 
-[Repositorio de Videos porcesados](https://drive.google.com/drive/folders/1obYHwKJAHL1e2aaF5Q2JwMZ4YsDCBwn-?usp=drive_link)
+[Repositorio de videos procesados](https://drive.google.com/drive/folders/1obYHwKJAHL1e2aaF5Q2JwMZ4YsDCBwn-?usp=drive_link)
 ---
 
 ## Inspiración
