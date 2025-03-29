@@ -1,0 +1,31 @@
+**Reporte de Incidente Dron - Frame 150**
+
+**Fecha/Hora:** Captura realizada a las 0:05 del frame 150.
+
+**Descripción del Incidente:**
+
+El frame 150 capturado por el dron muestra una alta densidad de vehículos, con 14 objetos detectados y clasificados como 'car' con diferentes niveles de confianza, que van desde 0.77 hasta 0.39. Adicionalmente, se ha detectado un foco de "fuego" con una confianza baja de 0.21.
+
+**Análisis de Objetos Detectados:**
+
+*   **Vehículos ('car'):** Se detectaron 14 vehículos. Las coordenadas (x, y) representan la esquina superior izquierda e inferior derecha de la caja delimitadora, permitiendo la ubicación de cada vehículo en el frame. La variable 'Area' es una aproximación del tamaño ocupado por el vehículo en el frame. Los valores de confianza varían entre 0.39 y 0.77, lo que podría indicar diferentes grados de visibilidad o claridad en la detección de cada vehículo.
+*   **Fuego ('fire'):** Se detectó un foco de fuego con una confianza baja (0.21) en las coordenadas (1101, 695, 1129, 718). La baja confianza sugiere la posibilidad de una falsa alarma, aunque la presencia del objeto requiere confirmación.
+
+**Clasificación de Gravedad del Incidente:**
+
+Considerando la detección de fuego, aunque con baja confianza, y la alta densidad de vehículos, la gravedad del incidente se clasifica como **Media**. Si el fuego es real, representa un riesgo potencial. La densidad de tráfico incrementa el riesgo en caso de que el fuego requiera evacuaciones o genere obstrucciones.
+
+**Equipo de Respuesta Sugerido:**
+
+1.  **Bomberos:** Dada la detección de fuego, los bomberos deben ser enviados inmediatamente al lugar para investigar y extinguir el fuego si es real.
+2.  **Policía:** La policía debe ser notificada para ayudar con el control del tráfico y el manejo de cualquier evacuación necesaria, así como para asegurar el perímetro.
+3.  **Drone con cámara térmica:** Un dron equipado con cámara térmica podría ser enviado para obtener una visión mas clara y objetiva de la situación, dada la baja confianza del sensor actual en la detección del fuego.
+
+**Justificación:**
+
+La presencia de fuego, incluso con baja confianza, exige una respuesta inmediata de los bomberos. La policía es necesaria para gestionar el tráfico y garantizar la seguridad en la zona.
+
+**Recomendaciones Adicionales:**
+
+*   Verificar la exactitud de la detección de fuego a través de múltiples fuentes (confirmación visual, cámaras de seguridad cercanas, etc.).
+*   Analizar los frames circundantes para verificar si la detección de fuego persiste en el tiempo y para entender mejor la dinámica de la situación.
