@@ -104,10 +104,4 @@ SIRIUS se compone de tres pilares fundamentales:
 
 ---
 
-## Reconocimientos
-
-Agradecemos a todos los miembros del equipo y a la organización del **Hackathon Troyano 2025** por el apoyo y la oportunidad de llevar a cabo este proyecto. SIRIUS es el resultado del esfuerzo conjunto y la pasión por transformar la respuesta ante emergencias urbanas.
-
----
-
 *SIRIUS aspira a ser una herramienta revolucionaria en la gestión de emergencias, combinando innovación tecnológica con un fuerte impacto social para proteger vidas y mejorar la seguridad en nuestras ciudades.*
