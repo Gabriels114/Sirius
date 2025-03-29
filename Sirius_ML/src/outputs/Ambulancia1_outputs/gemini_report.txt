@@ -1,0 +1,28 @@
+**Reporte de Incidente - Frame 150**
+
+**Fecha/Hora:** Frame 150, 0:05
+**Ubicación:** Según datos de detección de objetos: (aproximada basada en bounding boxes). Se necesitan datos de geolocalización del dron para precisar la ubicación.
+
+**Descripción del Incidente:**
+
+Detección de múltiples vehículos (3 'car' y 1 'truck') y un hidrante.  Lo más significativo es la detección de una gran área de "humo" con una confianza relativamente baja (0.24).  El área del humo es extensa (293761.00) en comparación con los objetos detectados.
+
+**Análisis:**
+
+*   La baja confianza en la detección de humo puede indicar que no es un evento de incendio significativo o que el algoritmo tiene dificultades para reconocer el humo en las condiciones actuales.
+*   La presencia de múltiples vehículos podría indicar una zona con tráfico regular o un estacionamiento.
+*   Es crucial confirmar la fuente del humo. La extensa área detectada sugiere una posible emergencia.
+
+**Clasificación de Gravedad:**
+
+**Media.**  La presencia de humo justifica una investigación más profunda. Aunque la confianza en la detección es baja, el tamaño del área afectada y la posibilidad de un incendio justifican una respuesta.
+
+**Equipo de Respuesta Sugerido:**
+
+1.  **Bomberos:** Debido a la detección de humo, la principal preocupación es la posibilidad de un incendio. Los bomberos deben ser enviados para investigar la fuente del humo y evaluar la situación.
+2.  **Policía:**  Se recomienda la presencia policial para controlar el tráfico si un incendio está afectando la vía pública y para garantizar la seguridad del personal de bomberos.
+3.  **Ambulancia:** (En modo de espera). Dada la posibilidad de un incendio y la presencia de vehículos, es prudente tener una ambulancia disponible en caso de que haya heridos.
+
+**Justificación de la Sugerencia:**
+
+La detección de humo, aunque con baja confianza, es la principal razón para la respuesta. La presencia de vehículos y la potencial gravedad de un incendio justifican un despliegue de recursos adecuado. Confirmar la fuente y la magnitud del humo es la prioridad inicial. Si se determina que no hay incendio o peligro inminente, los recursos adicionales pueden ser retirados.
