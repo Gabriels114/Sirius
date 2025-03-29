@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import StateDron from "../../atoms/StateDron/StateDron"
 import "./Card.css"
 
@@ -50,7 +51,7 @@ export default function Card ({
                     backgroundSize: "cover"
                 }}
             >
-                    <button children="Visualizar Ruta"/>
+                    <Link to={`/drone_operator/${title}`} children="Ver Trayecto"/>
                     <button children="Forzar regreso" style={{color: 'var(--red-alert)' }}/>
             </div>
         </div>

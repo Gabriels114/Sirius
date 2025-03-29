@@ -1,6 +1,14 @@
 .Operation_Container{
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 10px;
+}
+
+
+.Operation_Cards{
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;    
+    white-space: nowrap;
+    gap: 15px;
 }

@@ -12,12 +12,15 @@ export default function Operation() {
             <SubTitle title="En operacion"/>
 
 
+            <div className="Operation_Cards">
+                
             {data && data?.map((drone,i) => (
+                
                 <Card 
                     key={drone.drone_id} 
                     percentage={drone.battery} 
                     route={"Ruta " + (i+1)} 
-                    title={drone.drone_id} 
+                    title={drone.drone_id.substring(0,5)} 
                     color="#2192AC" 
                     img={img1}
                     batteryArrive={15}
@@ -25,7 +28,8 @@ export default function Operation() {
                     timeArrive={drone.estimated_arrival}
                     timeStart={drone.departure_time}
                     />
-            ))}
+                ))}
+            </div>
         </section>
     )
 }

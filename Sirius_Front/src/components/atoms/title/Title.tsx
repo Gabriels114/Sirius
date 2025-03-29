@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom"
+
 export default function Title({ base,title }: { base: string,title: string }) {
+    const titleIsFather = title.includes("/")
+    let titleSplited 
+    if (titleIsFather) titleSplited = title.split("/")
+
     return(
         <>
             <span
@@ -19,13 +25,28 @@ export default function Title({ base,title }: { base: string,title: string }) {
                 </div>
                 {base}
             </span>
-            <h1
+            {!titleIsFather 
+            ?(
+                <h1
+                    style={{
+                        lineHeight: '.75',
+                        fontSize: 'var(--font-xl)',
+                        color: 'var(--text-principal)',
+                    }}
+                >{title}</h1>
+            ):(
+                <Link to="/" style={{ textDecoration:"none"}}>
+                <h1
                 style={{
                     lineHeight: '.75',
                     fontSize: 'var(--font-xl)',
                     color: 'var(--text-principal)',
+                    
                 }}
-            >{title}</h1>
+                >{titleSplited![0]}<span style={{fontWeight: "300"}}> / {titleSplited![1]}</span></h1>
+                </Link>
+            )}
+
         </>
     )
 }
