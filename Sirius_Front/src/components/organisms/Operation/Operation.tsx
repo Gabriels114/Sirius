@@ -1,5 +1,7 @@
 import PlusIcon from "../../atoms/Icons/PlusIcon";
 import Card from "../../moleculs/CardOperations/Card";
+import img from "../../../assets/city_1.jpg"
+import img2 from "../../../assets/city_2.jpg"
 import"./Operation.css"
 
 export default function Operation() {
@@ -20,7 +22,8 @@ export default function Operation() {
                 />
             </span>
 
-            <Card percentage={73} route="Ruta A" title="Agras T10 (2)"/>
+            <Card percentage={73} route="Ruta A" title="Agras T10 (2)" color="#2192AC" img={img2}/>
+            <Card percentage={73} route="Ruta A" title="Agras T10 (2)" color="#A8B722" img={img}/>
 
         </section>
     )

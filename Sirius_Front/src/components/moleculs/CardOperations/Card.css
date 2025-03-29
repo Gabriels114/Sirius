@@ -2,26 +2,24 @@
     display: grid;
     width: 100%;
     grid-template-columns: 50% 50%;
-    height: 135px;
-    background:linear-gradient(to right, #2192AC 5px, var(--card-background) 5px);
+    height: 155px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .Card_Container_Image{
     display: flex;
     flex-direction: column-reverse;
     align-items: end;
-    background: linear-gradient(to bottom, transparent 70%,var(--background ) 100%),url('../../../assets/city_1.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
     border-radius: 0px 10px 10px 0px;
-
-    gap: 5px;
+    gap: 10px;
     padding: 0px 5px 5px 0px ;
 
     & button{
-        width: 100px;
-        padding: 1px ;
-        font-size: var(--font-xxs);
+        width: 120px;
+        padding: 5px;
+        font-size: var(--font-xs);
         border-radius: 10px;
         border: none;
         font-weight: 500;
