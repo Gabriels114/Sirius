@@ -3,3 +3,6 @@ opencv-python
 pandas
 torch
 torchvision
+Pillow
+google-generativeai
+tqdm
