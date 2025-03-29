@@ -22,7 +22,7 @@
   
 
   --background: #E7E7E7;
-  --background-transparent: #23222b8a ;
+  --background-transparent: #e7e7e777 ;
 
   --card-background: #fff;
 
@@ -38,7 +38,7 @@
   [data-theme="dark"] {
         /* Backgrounds */
         --background: #1E1E1E;
-        --background-transparent: #dedede3d;
+        --background-transparent: #1e1e1e8b;
 
         --card-background: #2C2C2C;
     
