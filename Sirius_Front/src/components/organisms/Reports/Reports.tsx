@@ -5,6 +5,8 @@ export default function Reports(){
     return(
         <section className="reports_container">
             <SubTitle title="Reportes"/>
+
+            
         </section>
     )
 }

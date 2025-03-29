@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./title.css"
+import MoonIcon from "../Icons/MoonIcon"
 
 export default function Title({ base,title }: { base: string,title: string }) {
     const titleIsFather = title.includes("/")
@@ -8,6 +9,8 @@ export default function Title({ base,title }: { base: string,title: string }) {
 
     return(
         <section className="title_container">
+            <div>
+
             <span
                 style={{
                     display: "flex",
@@ -15,7 +18,7 @@ export default function Title({ base,title }: { base: string,title: string }) {
                     gap: '5px',
                     color: 'var(--text-principal)',
                 }}
-            >
+                >
                 <div 
                     style={{
                         width: '10px',
@@ -48,6 +51,19 @@ export default function Title({ base,title }: { base: string,title: string }) {
                 </Link>
             )}
 
+            </div>
+
+            <button  children={MoonIcon()}
+                onClick={() => {
+                    const theme = document.documentElement.getAttribute("data-theme")
+                    const newTheme = theme ==="light" ? "dark" : "light"
+                    document.documentElement.setAttribute("data-theme", newTheme)
+                }}
+                style={{
+                    background: "transparent",
+                    border: "none"
+                }}
+            />
         </section>
     )
 }
