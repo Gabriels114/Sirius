@@ -1,0 +1,18 @@
+**Reporte de Incidente - Análisis de Dron**
+
+**ID del Incidente:** Frame 150
+
+**Hora de Detección:** 0:05
+
+**Descripción del Incidente:**
+
+El análisis de la imagen captada por el dron revela la presencia de un vehículo tipo "truck" con una confianza del 88%. Las coordenadas del vehículo son (420, 347, 901, 647), ocupando un área de 144300.00. Adicionalmente, se detecta fuego en la cercanía del vehículo con una confianza de 37%. Las coordenadas del fuego son (684, 486, 702, 501), abarcando un área de 270.00.
+
+**Clasificación de Gravedad:**
+
+**Media.** La detección de fuego cerca de un vehículo representa un riesgo potencial de propagación e incendio mayor. Aunque la confianza en la detección de fuego es relativamente baja, el riesgo justifica una respuesta para su verificación.
+
+**Equipo de Respuesta Sugerido:**
+
+1.  **Bomberos:** Debido a la detección de fuego, los bomberos son el primer equipo de respuesta necesario para investigar la causa del fuego, extinguirlo si es necesario y prevenir la propagación a áreas circundantes.
+2.  **Policía:** La presencia de la policía se sugiere para asegurar la zona, controlar el tráfico y prestar ayuda en caso de que se trate de un accidente en la vía o una emergencia.

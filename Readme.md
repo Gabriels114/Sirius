@@ -1,8 +1,14 @@
+👉 [Video del proyecto Youtube](https://www.youtube.com/watch?v=DVaZT8dYBFk)
+👉 [Video del proyecto de respaldo](https://drive.google.com/drive/folders/1o3fXCzWqRL7QlDLsqFJ9FvGqWYvfHZdc?usp=drive_link)
+
 # SIRIUS
 
 SIRIUS es una plataforma integral para la gestión de drones en la atención inmediata de incidentes urbanos. Utilizando análisis de video en tiempo real y reportes generados con el LLM Gemini, la solución permite responder de manera rápida y precisa ante emergencias, facilitando la toma de decisiones de las autoridades y mejorando la seguridad de la ciudad.
 
----
+[Repositorio de videos procesados](https://drive.google.com/drive/folders/1obYHwKJAHL1e2aaF5Q2JwMZ4YsDCBwn-?usp=drive_link)
+
+[Diseño de la interfaz (FIGMA)](https://www.figma.com/proto/Rz1PiKIYDJ1xQzEFiBJHaJ?node-id=0-1)
+
 
 ## Inspiración
 

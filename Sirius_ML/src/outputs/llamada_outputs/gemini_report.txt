@@ -1,0 +1,21 @@
+**INCIDENT REPORT**
+
+**Date/Time:** Current Time (based on frame 150 at 0:05)
+**Source:** Drone Surveillance
+**Frame:** 150
+
+**Incident Description:**
+
+At 0:05, a possible incident was detected by drone surveillance. The analysis indicates the presence of an object classified as 'person' with a confidence level of 0.90. The object's bounding box coordinates are (478, 70, 665, 548), encompassing an area of 89386.00 pixels.
+
+**Incident Classification:**
+
+**Severity:** **Medium**
+
+**Justification:** While the system has a high confidence in identifying a person, the context is unknown. The size of the bounding box suggests the individual may be lying down or potentially incapacitated. Further investigation is needed to determine the exact nature of the incident and the person's condition.
+
+**Recommended Response:**
+
+**Team:** **Ambulance and Police**
+
+**Justification:** Given the possibility of an incapacitated person, a medical team (ambulance) is necessary to assess the individual's condition and provide immediate medical assistance if required. The police are also recommended to secure the scene, investigate the cause of the potential incident (e.g., medical emergency, assault, accident), and ensure the safety of both the individual and the medical personnel.
