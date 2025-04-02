@@ -1,0 +1,34 @@
+## Reporte de Incidente - Frame 150
+
+**Fecha y Hora:**  [Asumimos que el tiempo base es 0:05 desde el inicio de la grabación]
+
+**Fuente:** Dron
+
+**Descripción del Incidente:**
+
+En el frame 150, se detectó un posible incidente que involucra vehículos y fuego. El análisis de objetos identificó:
+
+*   Tres objetos clasificados como 'car' con confianzas de 0.67, 0.62 y 0.45, y áreas de 1767.00, 2701.00, y 4048.00 pixeles respectivamente. Las coordenadas (x, y, ancho, alto) para cada 'car' son: (91, 166, 148, 197), (554, 283, 627, 320), y (537, 430, 625, 476).
+*   Un objeto clasificado como 'fire' con una confianza de 0.24 y un área de 420.00 pixeles.  Las coordenadas (x, y, ancho, alto) para este objeto son: (490, 409, 520, 423).
+
+**Análisis Preliminar:**
+
+La presencia de fuego cerca de los vehículos sugiere un posible accidente de tráfico o incendio vehicular. La baja confianza del detector de fuego puede significar que la fuente de fuego es pequeña, o la visión del dron no permite reconocer the fire very well.
+The size of the fire is small, that means it could be a small fire but the possibility of getting bigger with time.
+The location coordinates, combined with areas of the detected cars, suggest multiple vehicles in close proximity and one on fire.
+
+**Clasificación de Gravedad:** Media
+
+**Justificación:** La presencia de fuego, aunque con baja confianza, eleva la gravedad del incidente. Existe el riesgo de propagación del fuego a otros vehículos o estructuras cercanas. Aunque la confianza en la detección de fuego sea baja, el potencial de daño es significativo.
+
+**Equipo de Respuesta Sugerido:**
+
+1.  **Bomberos:**  Debido a la detección de fuego, la prioridad principal es la extinción del incendio y la prevención de su propagación.
+2.  **Policía:** Para asegurar la zona, controlar el tráfico y realizar la investigación del posible accidente.
+3.  **Ambulancia:**  La posibilidad de heridos en un accidente de tráfico con fuego requiere la presencia de personal médico para brindar asistencia.
+
+**Recomendaciones Adicionales:**
+
+*   Enviar un dron adicional para obtener una mejor vista aérea y evaluación más precisa de la situación.
+*   Establecer un perímetro de seguridad alrededor de la zona del incidente.
+*   Informar a las autoridades de tráfico para desviar el tráfico y evitar congestiones.
